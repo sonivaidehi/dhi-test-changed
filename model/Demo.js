@@ -28,6 +28,8 @@ const schema = new Schema(
     
     isDeleted:Boolean,
     
+    t1:{type:Boolean},
+    
     test:{type:String},
     
     test2:{type:String}
