@@ -28,6 +28,8 @@ const schema = new Schema(
     
     isDeleted:Boolean,
     
+    rggg:{type:Number},
+    
     t1:{type:Boolean},
     
     test:{type:String},

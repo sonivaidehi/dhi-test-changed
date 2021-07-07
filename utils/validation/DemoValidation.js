@@ -11,6 +11,7 @@ exports.schemaKeys = {
   test: joi.string().email(),
   test2: joi.string(),
   t1: joi.boolean(),
+  rggg: joi.number().integer(),
   isActive: joi.boolean(),
   isDeleted: joi.boolean()
 };
@@ -19,6 +20,7 @@ exports.updateSchemaKeys = {
   test: joi.string().email(),
   test2: joi.string(),
   t1: joi.boolean(),
+  rggg: joi.number().integer(),
   isActive: joi.boolean(),
   isDeleted: joi.boolean()
 };

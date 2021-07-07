@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "TestMVC",
-    "_postman_id": "234b8be3-3fdd-4beb-84d0-287b4393fa4d",
+    "_postman_id": "bf92bd22-bb3a-483f-b7d5-be7e4c886fce",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
   "item": [
@@ -84,7 +84,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"test\": \"Dollar\",\n  \"test2\": \"reboot\",\n  \"t1\": true,\n  \"isDeleted\": false,\n  \"isActive\": true\n}"
+                  "raw": "{\n  \"test\": \"connect\",\n  \"test2\": \"ubiquitous\",\n  \"t1\": false,\n  \"rggg\": 245,\n  \"isDeleted\": false,\n  \"isActive\": true\n}"
                 },
                 "description": ""
               },
@@ -184,7 +184,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"test\": \"Dollar\",\n      \"test2\": \"reboot\",\n      \"t1\": true,\n      \"isDeleted\": false,\n      \"isActive\": true\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"test\": \"connect\",\n      \"test2\": \"ubiquitous\",\n      \"t1\": false,\n      \"rggg\": 245,\n      \"isDeleted\": false,\n      \"isActive\": true\n    }\n  ]\n}"
                 },
                 "description": ""
               },
@@ -193,7 +193,7 @@
             {
               "name": "getDemo",
               "request": {
-                "url": "http://localhost:3000/admin/demo/60e5458ac2a6190194377bb6",
+                "url": "http://localhost:3000/admin/demo/60e54623bc86100234dc3af2",
                 "method": "GET",
                 "header": [
                   {
@@ -218,7 +218,7 @@
             {
               "name": "updateDemo",
               "request": {
-                "url": "http://localhost:3000/admin/demo/update/60e5458ac2a6190194377bb6",
+                "url": "http://localhost:3000/admin/demo/update/60e54623bc86100234dc3af2",
                 "method": "PUT",
                 "header": [
                   {
@@ -234,7 +234,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"test\": \"Dollar\",\n  \"test2\": \"reboot\",\n  \"t1\": true,\n  \"isDeleted\": false,\n  \"isActive\": true\n}"
+                  "raw": "{\n  \"test\": \"connect\",\n  \"test2\": \"ubiquitous\",\n  \"t1\": false,\n  \"rggg\": 245,\n  \"isDeleted\": false,\n  \"isActive\": true\n}"
                 },
                 "description": ""
               },
@@ -243,7 +243,7 @@
             {
               "name": "partialupdateDemo",
               "request": {
-                "url": "http://localhost:3000/admin/demo/partial-update/60e5458ac2a6190194377bb6",
+                "url": "http://localhost:3000/admin/demo/partial-update/60e54623bc86100234dc3af2",
                 "method": "PUT",
                 "header": [
                   {
@@ -268,7 +268,7 @@
             {
               "name": "softDeleteDemo",
               "request": {
-                "url": "http://localhost:3000/admin/demo/softDelete/60e5458ac2a6190194377bb6",
+                "url": "http://localhost:3000/admin/demo/softDelete/60e54623bc86100234dc3af2",
                 "method": "PUT",
                 "header": [
                   {
@@ -318,7 +318,7 @@
             {
               "name": "deleteDemo",
               "request": {
-                "url": "http://localhost:3000/admin/demo/delete/60e5458ac2a6190194377bb6",
+                "url": "http://localhost:3000/admin/demo/delete/60e54623bc86100234dc3af2",
                 "method": "DELETE",
                 "header": [
                   {
@@ -360,7 +360,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Ashley Kohler\",\n  \"password\": \"B5sa1kx8hVVmTE0\",\n  \"email\": \"Laverna93@hotmail.com\",\n  \"name\": \"Annette Beatty DDS\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Brett Bailey\",\n  \"password\": \"QlsuAwuFWe2zPEC\",\n  \"email\": \"Myrtis_Volkman@yahoo.com\",\n  \"name\": \"Tyler Littel\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -440,7 +440,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Ashley Kohler\",\n      \"password\": \"B5sa1kx8hVVmTE0\",\n      \"email\": \"Laverna93@hotmail.com\",\n      \"name\": \"Annette Beatty DDS\",\n      \"isDeleted\": true,\n      \"isActive\": false,\n      \"role\": 1\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Brett Bailey\",\n      \"password\": \"QlsuAwuFWe2zPEC\",\n      \"email\": \"Myrtis_Volkman@yahoo.com\",\n      \"name\": \"Tyler Littel\",\n      \"isDeleted\": true,\n      \"isActive\": true,\n      \"role\": 1\n    }\n  ]\n}"
                 },
                 "description": ""
               },
@@ -449,7 +449,7 @@
             {
               "name": "getuser",
               "request": {
-                "url": "http://localhost:3000/admin/user/60e5458ac2a6190194377bb7",
+                "url": "http://localhost:3000/admin/user/60e54623bc86100234dc3af3",
                 "method": "GET",
                 "header": [
                   {
@@ -469,7 +469,7 @@
             {
               "name": "updateuser",
               "request": {
-                "url": "http://localhost:3000/admin/user/update/60e5458ac2a6190194377bb7",
+                "url": "http://localhost:3000/admin/user/update/60e54623bc86100234dc3af3",
                 "method": "PUT",
                 "header": [
                   {
@@ -480,7 +480,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Ashley Kohler\",\n  \"password\": \"B5sa1kx8hVVmTE0\",\n  \"email\": \"Laverna93@hotmail.com\",\n  \"name\": \"Annette Beatty DDS\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Brett Bailey\",\n  \"password\": \"QlsuAwuFWe2zPEC\",\n  \"email\": \"Myrtis_Volkman@yahoo.com\",\n  \"name\": \"Tyler Littel\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -489,7 +489,7 @@
             {
               "name": "partialupdateuser",
               "request": {
-                "url": "http://localhost:3000/admin/user/partial-update/60e5458ac2a6190194377bb7",
+                "url": "http://localhost:3000/admin/user/partial-update/60e54623bc86100234dc3af3",
                 "method": "PUT",
                 "header": [
                   {
@@ -509,7 +509,7 @@
             {
               "name": "softDeleteuser",
               "request": {
-                "url": "http://localhost:3000/admin/user/softDelete/60e5458ac2a6190194377bb7",
+                "url": "http://localhost:3000/admin/user/softDelete/60e54623bc86100234dc3af3",
                 "method": "PUT",
                 "header": [
                   {
@@ -586,7 +586,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Ashley Kohler\",\n  \"password\": \"B5sa1kx8hVVmTE0\",\n  \"email\": \"Laverna93@hotmail.com\",\n  \"name\": \"Annette Beatty DDS\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Brett Bailey\",\n  \"password\": \"QlsuAwuFWe2zPEC\",\n  \"email\": \"Myrtis_Volkman@yahoo.com\",\n  \"name\": \"Tyler Littel\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -646,7 +646,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"60e5458ac2a6190194377bb8\",\n  \"newPassword\": \"YourNewPassword\"\n}"
+                  "raw": "{\n  \"userId\": \"60e54623bc86100234dc3af4\",\n  \"newPassword\": \"YourNewPassword\"\n}"
                 },
                 "description": ""
               },
@@ -703,7 +703,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"test\": \"Dollar\",\n  \"test2\": \"reboot\",\n  \"t1\": true,\n  \"isDeleted\": false,\n  \"isActive\": true\n}"
+                  "raw": "{\n  \"test\": \"connect\",\n  \"test2\": \"ubiquitous\",\n  \"t1\": false,\n  \"rggg\": 245,\n  \"isDeleted\": false,\n  \"isActive\": true\n}"
                 },
                 "description": ""
               },
@@ -803,7 +803,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"test\": \"Dollar\",\n      \"test2\": \"reboot\",\n      \"t1\": true,\n      \"isDeleted\": false,\n      \"isActive\": true\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"test\": \"connect\",\n      \"test2\": \"ubiquitous\",\n      \"t1\": false,\n      \"rggg\": 245,\n      \"isDeleted\": false,\n      \"isActive\": true\n    }\n  ]\n}"
                 },
                 "description": ""
               },
@@ -853,7 +853,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"test\": \"Dollar\",\n  \"test2\": \"reboot\",\n  \"t1\": true,\n  \"isDeleted\": false,\n  \"isActive\": true\n}"
+                  "raw": "{\n  \"test\": \"connect\",\n  \"test2\": \"ubiquitous\",\n  \"t1\": false,\n  \"rggg\": 245,\n  \"isDeleted\": false,\n  \"isActive\": true\n}"
                 },
                 "description": ""
               },
@@ -1004,7 +1004,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Ashley Kohler\",\n  \"password\": \"B5sa1kx8hVVmTE0\",\n  \"email\": \"Laverna93@hotmail.com\",\n  \"name\": \"Annette Beatty DDS\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Brett Bailey\",\n  \"password\": \"QlsuAwuFWe2zPEC\",\n  \"email\": \"Myrtis_Volkman@yahoo.com\",\n  \"name\": \"Tyler Littel\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -1064,7 +1064,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"60e5458ac2a6190194377bb9\",\n  \"newPassword\": \"YourNewPassword\"\n}"
+                  "raw": "{\n  \"userId\": \"60e54623bc86100234dc3af5\",\n  \"newPassword\": \"YourNewPassword\"\n}"
                 },
                 "description": ""
               },
@@ -1121,7 +1121,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"test\": \"Dollar\",\n  \"test2\": \"reboot\",\n  \"t1\": true,\n  \"isDeleted\": false,\n  \"isActive\": true\n}"
+                  "raw": "{\n  \"test\": \"connect\",\n  \"test2\": \"ubiquitous\",\n  \"t1\": false,\n  \"rggg\": 245,\n  \"isDeleted\": false,\n  \"isActive\": true\n}"
                 },
                 "description": ""
               },
@@ -1221,7 +1221,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"test\": \"Dollar\",\n      \"test2\": \"reboot\",\n      \"t1\": true,\n      \"isDeleted\": false,\n      \"isActive\": true\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"test\": \"connect\",\n      \"test2\": \"ubiquitous\",\n      \"t1\": false,\n      \"rggg\": 245,\n      \"isDeleted\": false,\n      \"isActive\": true\n    }\n  ]\n}"
                 },
                 "description": ""
               },
@@ -1271,7 +1271,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"test\": \"Dollar\",\n  \"test2\": \"reboot\",\n  \"t1\": true,\n  \"isDeleted\": false,\n  \"isActive\": true\n}"
+                  "raw": "{\n  \"test\": \"connect\",\n  \"test2\": \"ubiquitous\",\n  \"t1\": false,\n  \"rggg\": 245,\n  \"isDeleted\": false,\n  \"isActive\": true\n}"
                 },
                 "description": ""
               },
@@ -1402,7 +1402,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Ashley Kohler\",\n  \"password\": \"B5sa1kx8hVVmTE0\",\n  \"email\": \"Laverna93@hotmail.com\",\n  \"name\": \"Annette Beatty DDS\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Brett Bailey\",\n  \"password\": \"QlsuAwuFWe2zPEC\",\n  \"email\": \"Myrtis_Volkman@yahoo.com\",\n  \"name\": \"Tyler Littel\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -1502,7 +1502,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Ashley Kohler\",\n      \"password\": \"B5sa1kx8hVVmTE0\",\n      \"email\": \"Laverna93@hotmail.com\",\n      \"name\": \"Annette Beatty DDS\",\n      \"isDeleted\": true,\n      \"isActive\": false,\n      \"role\": 1\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Brett Bailey\",\n      \"password\": \"QlsuAwuFWe2zPEC\",\n      \"email\": \"Myrtis_Volkman@yahoo.com\",\n      \"name\": \"Tyler Littel\",\n      \"isDeleted\": true,\n      \"isActive\": true,\n      \"role\": 1\n    }\n  ]\n}"
                 },
                 "description": ""
               },
@@ -1552,7 +1552,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Ashley Kohler\",\n  \"password\": \"B5sa1kx8hVVmTE0\",\n  \"email\": \"Laverna93@hotmail.com\",\n  \"name\": \"Annette Beatty DDS\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Brett Bailey\",\n  \"password\": \"QlsuAwuFWe2zPEC\",\n  \"email\": \"Myrtis_Volkman@yahoo.com\",\n  \"name\": \"Tyler Littel\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -1673,7 +1673,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Ashley Kohler\",\n  \"password\": \"B5sa1kx8hVVmTE0\",\n  \"email\": \"Laverna93@hotmail.com\",\n  \"name\": \"Annette Beatty DDS\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Brett Bailey\",\n  \"password\": \"QlsuAwuFWe2zPEC\",\n  \"email\": \"Myrtis_Volkman@yahoo.com\",\n  \"name\": \"Tyler Littel\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -1733,7 +1733,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"60e5458ac2a6190194377bba\",\n  \"newPassword\": \"YourNewPassword\"\n}"
+                  "raw": "{\n  \"userId\": \"60e54623bc86100234dc3af6\",\n  \"newPassword\": \"YourNewPassword\"\n}"
                 },
                 "description": ""
               },
@@ -1790,7 +1790,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"test\": \"Dollar\",\n  \"test2\": \"reboot\",\n  \"t1\": true,\n  \"isDeleted\": false,\n  \"isActive\": true\n}"
+                  "raw": "{\n  \"test\": \"connect\",\n  \"test2\": \"ubiquitous\",\n  \"t1\": false,\n  \"rggg\": 245,\n  \"isDeleted\": false,\n  \"isActive\": true\n}"
                 },
                 "description": ""
               },
@@ -1890,7 +1890,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"test\": \"Dollar\",\n      \"test2\": \"reboot\",\n      \"t1\": true,\n      \"isDeleted\": false,\n      \"isActive\": true\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"test\": \"connect\",\n      \"test2\": \"ubiquitous\",\n      \"t1\": false,\n      \"rggg\": 245,\n      \"isDeleted\": false,\n      \"isActive\": true\n    }\n  ]\n}"
                 },
                 "description": ""
               },
@@ -1940,7 +1940,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"test\": \"Dollar\",\n  \"test2\": \"reboot\",\n  \"t1\": true,\n  \"isDeleted\": false,\n  \"isActive\": true\n}"
+                  "raw": "{\n  \"test\": \"connect\",\n  \"test2\": \"ubiquitous\",\n  \"t1\": false,\n  \"rggg\": 245,\n  \"isDeleted\": false,\n  \"isActive\": true\n}"
                 },
                 "description": ""
               },
@@ -2071,7 +2071,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Ashley Kohler\",\n  \"password\": \"B5sa1kx8hVVmTE0\",\n  \"email\": \"Laverna93@hotmail.com\",\n  \"name\": \"Annette Beatty DDS\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Brett Bailey\",\n  \"password\": \"QlsuAwuFWe2zPEC\",\n  \"email\": \"Myrtis_Volkman@yahoo.com\",\n  \"name\": \"Tyler Littel\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -2171,7 +2171,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Ashley Kohler\",\n      \"password\": \"B5sa1kx8hVVmTE0\",\n      \"email\": \"Laverna93@hotmail.com\",\n      \"name\": \"Annette Beatty DDS\",\n      \"isDeleted\": true,\n      \"isActive\": false,\n      \"role\": 1\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Brett Bailey\",\n      \"password\": \"QlsuAwuFWe2zPEC\",\n      \"email\": \"Myrtis_Volkman@yahoo.com\",\n      \"name\": \"Tyler Littel\",\n      \"isDeleted\": true,\n      \"isActive\": true,\n      \"role\": 1\n    }\n  ]\n}"
                 },
                 "description": ""
               },
@@ -2221,7 +2221,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Ashley Kohler\",\n  \"password\": \"B5sa1kx8hVVmTE0\",\n  \"email\": \"Laverna93@hotmail.com\",\n  \"name\": \"Annette Beatty DDS\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Brett Bailey\",\n  \"password\": \"QlsuAwuFWe2zPEC\",\n  \"email\": \"Myrtis_Volkman@yahoo.com\",\n  \"name\": \"Tyler Littel\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -2342,7 +2342,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Ashley Kohler\",\n  \"password\": \"B5sa1kx8hVVmTE0\",\n  \"email\": \"Laverna93@hotmail.com\",\n  \"name\": \"Annette Beatty DDS\",\n  \"isDeleted\": true,\n  \"isActive\": false,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Brett Bailey\",\n  \"password\": \"QlsuAwuFWe2zPEC\",\n  \"email\": \"Myrtis_Volkman@yahoo.com\",\n  \"name\": \"Tyler Littel\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -2402,7 +2402,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"60e5458ac2a6190194377bbb\",\n  \"newPassword\": \"YourNewPassword\"\n}"
+                  "raw": "{\n  \"userId\": \"60e54623bc86100234dc3af7\",\n  \"newPassword\": \"YourNewPassword\"\n}"
                 },
                 "description": ""
               },
