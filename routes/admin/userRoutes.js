@@ -1,0 +1,20 @@
+const express = require('express');
+const router = express.Router();
+const userController = require("../../controller/admin/userController");
+const TestPolicy = require('../../middleware/TestPolicy');
+const TestController = require('../../controller/admin/TestController');
+router.route("/admin/user/create").post(userController.addUser);
+router.route("/admin/user/list").post(userController.findAllUser);
+router.route("/admin/user/:id").get(userController.getUser);
+router.route("/admin/user/count").post(userController.getUserCount);
+router.route("/admin/user/aggregate").post(userController.getUserByAggregate);
+router.route("/admin/user/update/:id").put(userController.updateUser);    
+router.route("/admin/user/partial-update/:id").put(userController.partialUpdateUser);
+router.route("/admin/user/softDelete/:id").put(userController.softDeleteUser);
+router.route("/admin/user/addBulk").post(userController.bulkInsertUser);
+router.route("/admin/user/updateBulk").put(userController.bulkUpdateUser);
+router.route("/admin/user/change-password").put(userController.changePassword);
+router.route("/test2").get(userController.testCR2);
+router.route("/test").post(TestPolicy,TestController.testCR);
+
+module.exports = router;
